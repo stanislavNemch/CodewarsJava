@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class DescendingOrder {
     public static int sortDesc(final int num) {
 
-        char[] chars = ("" + num).toCharArray();
+        char[] chars = ("" + num).toCharArray();// Преобразование числа в массив Char
 
         Arrays.sort(chars);
 
