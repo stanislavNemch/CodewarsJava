@@ -23,6 +23,7 @@ class KataSortArrays {
 
         // Sort the list of odd numbers
         Arrays.sort(oddNumbers);
+        // Remove the zeros from the array
         oddNumbers = Arrays.stream(oddNumbers).filter(num -> num != 0).toArray();
 
         // Replace the odd numbers in the array with the sorted odd numbers
